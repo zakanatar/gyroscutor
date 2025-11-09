@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+    height: 877px;
+}
+section
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container{
+    margin: auto;
+    max-width: 1134px;
+    width: 90%;
+}
+
+.number>p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button-number {
+    width: 184px;
+    height: 37px;
+    background-color: #FFA019;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+}
+
+.header>p{
+    font-size: 30px;
+    
+}
+
+.ul-nav {
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+}
+
+.text-ul {
+    margin: 10px 10px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.number{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    padding-top: 10px;
+}
+
+.color:first-child{border-bottom: rgba(0, 0, 0, 0.2) solid 1px;}
+
+.color{background-color: white}
+
+.My-Giro{
+    text-align: center;
+    color:white;
+    display: flex;
+    height: 750px;
+}
+
+.text-MyGiro{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.text-MyGiro>h1{
+    font-size: 56px;
+    font-weight: lighter;
+}
+
+.text-MyGiro>p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.button-catalog{
+    text-decoration: none;
+    background-color: white;
+    width: 140px;
+    color:black;
+    font-weight: bold;
+    padding: 21px 0;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.advantage-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.Polygon {
+    padding: 15px 0;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage-item{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+.AboutUs{margin-top: 30px;}
+
+.block-Subscribe{
+    background-color: #FFA019;
+    color: white;
+    height: 94px;
+    display: flex;
+    align-items:center;
+}
+
+.Subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.text-Subscribe{
+    width: 250px;
+    margin-right: 11px;
+}
+
+.input{
+    width: 241px;
+    height: 42px;
+    background-color: #FFA019;
+    border:white solid 1px;
+    margin-right: 11px;
+}
+
+input::placeholder{
+    color:white;
+    padding-left: 25px;
+}
+
+.button-subscribe{
+    width: 241px;
+    height: 42px;
+    background-color: white;
+    border: none;
+    color:black;
+}
+
+.peculiarities{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.ul-peculiarities{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.plus::before {
+    content: "+";
+    margin-right: 5px;
+}
+
+.minus::before {
+    content: "-";
+    margin-right: 5px;
+}
+
+.AboutUs-text{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.catalog{ 
+    background-color: #FBFBFB;
+    height: 730px;
+}
+
+.catalog-block{ margin-top: 60px;}
+
+.nav-catalog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-catalog>p{
+    margin-top: 60px;
+}
+
+.catalog-nav{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.catalog-nav>p{
+    transition: all 0.1s ease;
+}
+
+.catalog-nav>p:hover{
+    background-color: #FFA019;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.block-cards{
+    margin-top: 60px;
+    display: flex;
+    font-size: 16px;
+    font-weight: lighter;
+    gap: 30px;
+}
+
+.card{
+    background-color: white;
+    height: 400px;
+    width: 261px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card>svg{margin-top: 10px;}
+
+.card>p{
+    margin-left: 10px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.consultant{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card-consultant{
+    display: flex;
+    background-color:#FBFBFB;
+    margin-right: 30px;
+}
+
+.block-consultant{display: flex;}
+
+.info-consultant{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 177px;
+    margin-left: 31px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.info-consultant>button{
+    margin-top: 20px;
+    background-color: #FFA019;
+    border: none;
+    border-radius: 10px;
+    width: 79px;
+    height: 30px;
+    color: white;
+    margin-left: 29px;
+}
+
+.category-consultant{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.brands{
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    color: #9B9B9B;
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    height: 90px;
+    align-items: center;
+}
+
+.brands>p:first-child{margin-left: 90px;}
+.brands>p:last-child{margin-right: 90px;}
+
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+
+}
+
+.img {
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.card-text {
+    position: absolute;
+    left: 0;  
+    right: 0;  
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6); 
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-style: bold;
+    text-align: center; 
+    line-height: 30px;
+    padding-top: 40%;
+    
+}
