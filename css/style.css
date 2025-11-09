@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+    height: 877px;
+}
+section
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container{
+    margin: auto;
+    max-width: 1134px;
+    width: 90%;
+}
+
+.number>p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button-number {
+    width: 184px;
+    height: 37px;
+    background-color: #FFA019;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+}
+
+.header>p{
+    font-size: 30px;
+    
+}
+
+.ul-nav {
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+}
+
+.text-ul {
+    margin: 10px 10px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.number{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    padding-top: 10px;
+}
+
+.color:first-child{border-bottom: rgba(0, 0, 0, 0.2) solid 1px;}
+
+.color{background-color: white}
+
+.My-Giro{
+    text-align: center;
+    color:white;
+    display: flex;
+    height: 750px;
+}
+
+.text-MyGiro{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.text-MyGiro>h1{
+    font-size: 56px;
+    font-weight: lighter;
+}
+
+.text-MyGiro>p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.button-catalog{
+    text-decoration: none;
+    background-color: white;
+    width: 140px;
+    color:black;
+    font-weight: bold;
+    padding: 21px 0;
+    margin: 10px auto;
+    border-radius: 10px;
+}
